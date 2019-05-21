@@ -34,7 +34,7 @@ function App() {
   }, [])
   if (state.loading) return <h1>Loading...</h1>
   return (
-    <div>
+    <div> 
       {
         state.coins.map((c, i) => (
           <div key={i}>
