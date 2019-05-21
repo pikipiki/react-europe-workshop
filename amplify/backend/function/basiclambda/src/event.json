@@ -1,0 +1,8 @@
+{
+    "headers": {
+        "x-api-key": "some-api-key"
+    },
+    "queryparams": {
+        "search": "name"
+    }
+}

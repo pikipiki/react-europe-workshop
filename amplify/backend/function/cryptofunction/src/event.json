@@ -1,0 +1,8 @@
+{
+    "httpMethod": "GET",
+    "path": "/coins",
+    "queryStringParameters": {
+        "start": "100",
+        "limit": "2"
+    }
+}
