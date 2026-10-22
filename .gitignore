@@ -10,6 +10,7 @@
 
 # production
 /build
+/dist
 
 # misc
 .DS_Store
@@ -30,5 +31,6 @@ amplify/backend/awscloudformation
 build/
 dist/
 node_modules/
-aws-exports.js
+# Override locally after `amplify push` (committed stub: src/aws-exports.js)
+# aws-exports.js
 awsconfiguration.json
